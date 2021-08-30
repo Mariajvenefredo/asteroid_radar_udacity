@@ -1,24 +1,19 @@
 package com.udacity.asteroidradar
 
+import android.net.Uri
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 import com.udacity.asteroidradar.main.AsteroidGridAdapter
+import com.udacity.asteroidradar.models.Asteroid
+import com.udacity.asteroidradar.models.PictureOfDay
 
 @BindingAdapter("dataList")
 fun bindRecyclerView(recyclerView: RecyclerView, data: List<Asteroid>?) {
     val adapter = recyclerView.adapter as AsteroidGridAdapter
     adapter.submitList(data)
-}
-
-@BindingAdapter("statusIcon")
-fun bindAsteroidStatusImage(imageView: ImageView, isHazardous: Boolean) {
-    if (isHazardous) {
-        imageView.setImageResource(R.drawable.ic_status_potentially_hazardous)
-    } else {
-        imageView.setImageResource(R.drawable.ic_status_normal)
-    }
 }
 
 @BindingAdapter("asteroidStatusImage")
@@ -27,6 +22,19 @@ fun bindDetailsStatusImage(imageView: ImageView, isHazardous: Boolean) {
         imageView.setImageResource(R.drawable.asteroid_hazardous)
     } else {
         imageView.setImageResource(R.drawable.asteroid_safe)
+    }
+}
+
+@BindingAdapter("imageOfDay")
+fun bindImageOfDay(imageView: ImageView, pictureOfDay: PictureOfDay?) {
+    val url = pictureOfDay?.url
+    if (url != null) {
+        val uri = Uri.parse(url)
+
+        Picasso
+            .with(imageView.context)
+            .load(uri)
+            .into(imageView)
     }
 }
 

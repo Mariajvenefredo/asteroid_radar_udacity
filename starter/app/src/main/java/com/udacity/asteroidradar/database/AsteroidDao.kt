@@ -9,10 +9,10 @@ import androidx.room.Query
 @Dao
 interface AsteroidDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    fun insertAll(vararg asteroids: DatabaseAsteroid)
+    fun insertAllAsteroids(vararg asteroids: DatabaseAsteroid)
 
     @Query("select * from DatabaseAsteroid WHERE closeApproachDate >= :today order by closeApproachDate desc")
-    fun getAll(today : String): LiveData<List<DatabaseAsteroid>>
+    fun getAllAsteroids(today: String): LiveData<List<DatabaseAsteroid>>
 
     @Query("select * from DatabaseAsteroid WHERE closeApproachDate = :date ORDER BY closeApproachDate DESC")
     fun getTodayAsteroids(date: String): LiveData<List<DatabaseAsteroid>>
@@ -21,5 +21,11 @@ interface AsteroidDao {
     fun getWeekAsteroids(startDate: String, endDate: String): LiveData<List<DatabaseAsteroid>>
 
     @Query("delete from DatabaseAsteroid")
-    fun deleteAll()
+    fun deleteAllAsteroids()
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertPictureOfDay(vararg pictureOfDay: DatabasePictureOfDay)
+
+    @Query("SELECT * FROM DatabasePictureOfDay")
+    fun getPictureOfDay(): LiveData<DatabasePictureOfDay>
 }

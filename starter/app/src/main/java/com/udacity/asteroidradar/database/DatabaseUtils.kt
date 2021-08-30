@@ -1,9 +1,8 @@
 package com.udacity.asteroidradar.database
 
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
-import com.udacity.asteroidradar.Asteroid
+import com.udacity.asteroidradar.models.Asteroid
 
 fun List<Asteroid>.asDatabaseAsteroids(): Array<DatabaseAsteroid> {
     val asteroidsDatabase = this.map { asteroid -> asteroid.toDatabaseAsteroid() }

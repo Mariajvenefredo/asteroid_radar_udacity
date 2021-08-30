@@ -6,7 +6,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.udacity.asteroidradar.Constants.DATABASE_NAME
 
-@Database(entities = [DatabaseAsteroid::class], version = 1)
+@Database(entities = [DatabaseAsteroid::class, DatabasePictureOfDay::class], version = 1)
 abstract class AsteroidDatabase : RoomDatabase() {
 
     abstract val asteroidDao: AsteroidDao

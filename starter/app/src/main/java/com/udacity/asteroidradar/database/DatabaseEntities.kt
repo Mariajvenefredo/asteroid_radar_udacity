@@ -2,7 +2,8 @@ package com.udacity.asteroidradar.database
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.udacity.asteroidradar.Asteroid
+import com.udacity.asteroidradar.models.Asteroid
+import com.udacity.asteroidradar.models.PictureOfDay
 
 @Entity
 data class DatabaseAsteroid constructor(
@@ -25,5 +26,19 @@ data class DatabaseAsteroid constructor(
             relativeVelocity = relativeVelocity,
             distanceFromEarth = distanceFromEarth,
             isPotentiallyHazardous = isPotentiallyHazardous
+        )
+}
+
+@Entity
+data class DatabasePictureOfDay constructor(
+    @PrimaryKey val url: String,
+    val mediaType: String,
+    val title: String
+) {
+    fun toPictureOfDay(): PictureOfDay =
+        PictureOfDay(
+            url = url,
+            mediaType = mediaType,
+            title = title
         )
 }
