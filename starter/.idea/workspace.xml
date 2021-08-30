@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="ASTEROID_JSON" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e57dd47a-b61c-48f8-8fed-a76438481d78" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/api/AsteroidApiService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/database/AsteroidDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/database/AsteroidDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/database/DatabaseEntities.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/database/DatabaseUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/main/AsteroidGridAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/repository/AsteroidRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/grid_view_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/Asteroid.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/Asteroid.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/BindingAdapters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/BindingAdapters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/Constants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/api/NetworkUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/api/NetworkUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/detail/DetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/detail/DetailFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/main/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/main/MainFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/main/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/main/MainViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/main_overflow_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/main_overflow_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/ctw00294/.android/avd/Pixel_3a_API_29.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Asteroid Radar" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Asteroid Radar" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Asteroid Radar" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1wos0L5VjFRNENC7BxYKObgiZLB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@/Users/ctw00294/.android/avd/Pixel_3a_API_29.avd" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-08-30T11:46:38.741176Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android-custom-view/Users/ctw00294/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Asteroid_Radar.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e57dd47a-b61c-48f8-8fed-a76438481d78" name="Default Changelist" comment="" />
+      <created>1629136052074</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629136052074</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1415" y="150" key="#xdebugger.evaluate" timestamp="1630324182654">
+      <screen x="0" y="25" width="1920" height="974" />
+    </state>
+    <state x="1415" y="150" key="#xdebugger.evaluate/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630324182654" />
+    <state x="100" y="125" width="1720" height="774" key="AVDManager" timestamp="1630318850114">
+      <screen x="0" y="25" width="1920" height="974" />
+    </state>
+    <state x="100" y="125" width="1720" height="774" key="AVDManager/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630318850114" />
+    <state x="548" y="272" key="AndroidCreateResourceFileDialog" timestamp="1629138039911">
+      <screen x="0" y="25" width="1920" height="974" />
+    </state>
+    <state x="548" y="272" key="AndroidCreateResourceFileDialog/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1629138039911" />
+    <state width="541" height="466" key="DebuggerActiveHint" timestamp="1630326203403">
+      <screen x="0" y="25" width="1920" height="974" />
+    </state>
+    <state width="541" height="466" key="DebuggerActiveHint/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630326203403" />
+    <state width="1878" height="261" key="GridCell.Tab.0.bottom" timestamp="1630326542263">
+      <screen x="0" y="25" width="1920" height="974" />
+    </state>
+    <state width="1878" height="261" key="GridCell.Tab.0.bottom/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630326542263" />
+    <state width="1878" height="261" key="GridCell.Tab.0.center" timestamp="1630326542263">
+      <screen x="0" y="25" width="1920" height="974" />
+    </state>
+    <state width="1878" height="261" key="GridCell.Tab.0.center/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630326542263" />
+    <state width="1878" height="261" key="GridCell.Tab.0.left" timestamp="1630326542262">
+      <screen x="0" y="25" width="1920" height="974" />
+    </state>
+    <state width="1878" height="261" key="GridCell.Tab.0.left/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630326542262" />
+    <state width="1878" height="261" key="GridCell.Tab.0.right" timestamp="1630326542263">
+      <screen x="0" y="25" width="1920" height="974" />
+    </state>
+    <state width="1878" height="261" key="GridCell.Tab.0.right/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630326542263" />
+    <state width="1878" height="261" key="GridCell.Tab.1.bottom" timestamp="1630326539204">
+      <screen x="0" y="25" width="1920" height="974" />
+    </state>
+    <state width="1878" height="261" key="GridCell.Tab.1.bottom/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630326539204" />
+    <state width="1878" height="261" key="GridCell.Tab.1.center" timestamp="1630326539202">
+      <screen x="0" y="25" width="1920" height="974" />
+    </state>
+    <state width="1878" height="261" key="GridCell.Tab.1.center/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630326539202" />
+    <state width="1878" height="261" key="GridCell.Tab.1.left" timestamp="1630326539202">
+      <screen x="0" y="25" width="1920" height="974" />
+    </state>
+    <state width="1878" height="261" key="GridCell.Tab.1.left/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630326539202" />
+    <state width="1878" height="261" key="GridCell.Tab.1.right" timestamp="1630326539203">
+      <screen x="0" y="25" width="1920" height="974" />
+    </state>
+    <state width="1878" height="261" key="GridCell.Tab.1.right/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630326539203" />
+    <state x="100" y="126" width="1720" height="774" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1630323846301">
+      <screen x="0" y="25" width="1920" height="974" />
+    </state>
+    <state x="100" y="126" width="1720" height="774" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630323846301" />
+    <state x="659" y="268" width="777" height="490" key="find.popup" timestamp="1630322346439">
+      <screen x="0" y="25" width="1920" height="974" />
+    </state>
+    <state x="659" y="268" width="777" height="490" key="find.popup/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630322346439" />
+    <state x="625" y="240" width="670" height="676" key="search.everywhere.popup" timestamp="1630320777774">
+      <screen x="0" y="25" width="1920" height="974" />
+    </state>
+    <state x="625" y="240" width="670" height="676" key="search.everywhere.popup/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630320777774" />
+  </component>
+</project>
