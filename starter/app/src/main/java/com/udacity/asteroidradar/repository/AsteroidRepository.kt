@@ -3,11 +3,8 @@ package com.udacity.asteroidradar.repository
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.Transformations
 import com.udacity.asteroidradar.Constants
 import com.udacity.asteroidradar.api.AsteroidApi
-import com.udacity.asteroidradar.api.AsteroidFilter
 import com.udacity.asteroidradar.api.parseAsteroidsStringResult
 import com.udacity.asteroidradar.database.AsteroidDatabase
 import com.udacity.asteroidradar.database.asAsteroids
@@ -25,17 +22,6 @@ class AsteroidRepository(private val database: AsteroidDatabase) {
 
     private val allAsteroids = database.asteroidDao.getAllAsteroids(todayDate.toString())
 
-    private val filter = MutableLiveData(AsteroidFilter.ALL)
-
-    val asteroids: LiveData<List<Asteroid>> =
-        Transformations.switchMap(filter) {
-            val endDate = todayDate.plusWeeks(1)
-            when (filter.value) {
-                AsteroidFilter.WEEK -> getWeekAsteroids(todayDate, endDate)
-                AsteroidFilter.DAY -> getDayAsteroids(todayDate)
-                else -> allAsteroids.asAsteroids()
-            }
-        }
 
     suspend fun addAsteroidsToDatabase() {
         withContext(Dispatchers.IO) {
@@ -45,31 +31,33 @@ class AsteroidRepository(private val database: AsteroidDatabase) {
         }
     }
 
-    suspend fun addPictureOfDay(): PictureOfDay =
+    suspend fun addPictureOfDay() =
         withContext(Dispatchers.IO) {
             val picture =
                 AsteroidApi.retrofitService.getPictureOfDay(Constants.API_KEY, todayDate)
 
             database.asteroidDao.insertPictureOfDay(picture.toDatabasePictureOfDay())
-            return@withContext picture
         }
 
-
-    fun updateAsteroids(asteroidFilter: AsteroidFilter) =
-        filter.postValue(asteroidFilter)
-
-    private fun getDayAsteroids(startDate: LocalDate) =
+    fun getDayAsteroids(): LiveData<List<Asteroid>> =
         database
             .asteroidDao
-            .getTodayAsteroids(startDate.toString())
+            .getTodayAsteroids(todayDate.toString())
             .asAsteroids()
 
-    private fun getWeekAsteroids(
-        startDate: LocalDate,
-        endDate: LocalDate
-    ) =
-        database
+    fun getWeekAsteroids(): LiveData<List<Asteroid>> {
+        val endDate = todayDate.plusWeeks(1)
+
+        return database
             .asteroidDao
-            .getWeekAsteroids(startDate.toString(), endDate.toString())
+            .getWeekAsteroids(todayDate.toString(), endDate.toString())
             .asAsteroids()
+    }
+
+    fun getAllAsteroids(): LiveData<List<Asteroid>> = allAsteroids.asAsteroids()
+
+    suspend fun getPictureOfDay(): PictureOfDay =
+        withContext(Dispatchers.IO) {
+            database.asteroidDao.getPictureOfDay().toPictureOfDay()
+        }
 }

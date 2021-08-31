@@ -15,7 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e57dd47a-b61c-48f8-8fed-a76438481d78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/work/RefreshAsteroids.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/border.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -26,32 +26,23 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Asteroid_Radar.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Asteroid_Radar.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/Asteroid.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/models/Asteroid.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/BindingAdapters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/BindingAdapters.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/PictureOfDay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/models/PictureOfDay.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/api/AsteroidApiService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/api/AsteroidApiService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/api/NetworkUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/api/NetworkUtils.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/database/AsteroidDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/database/AsteroidDao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/database/AsteroidDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/database/AsteroidDatabase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/database/DatabaseEntities.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/database/DatabaseEntities.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/database/DatabaseUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/database/DatabaseUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/main/AsteroidGridAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/main/AsteroidGridAdapter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/main/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/main/MainViewModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/repository/AsteroidRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/asteroidradar/repository/AsteroidRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_detail.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/grid_view_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/grid_view_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/main_nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/main_nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/ctw00294/.android/avd/Pixel_3a_API_30_x86.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/ctw00294/.android/avd/Pixel_3a_API_29.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -90,6 +81,7 @@
       <list>
         <option value="layoutResourceFile" />
         <option value="Kotlin Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -204,58 +196,67 @@
       <screen x="0" y="25" width="1920" height="974" />
     </state>
     <state x="1415" y="150" key="#xdebugger.evaluate/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630324182654" />
-    <state x="100" y="125" width="1720" height="774" key="AVDManager" timestamp="1630340150603">
-      <screen x="0" y="25" width="1920" height="974" />
+    <state x="0" y="25" width="1440" height="774" key="AVDManager" timestamp="1630400390831">
+      <screen x="0" y="25" width="1440" height="799" />
     </state>
     <state x="100" y="125" width="1720" height="774" key="AVDManager/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630340150603" />
-    <state x="548" y="272" key="AndroidCreateResourceFileDialog" timestamp="1629138039911">
+    <state x="0" y="25" width="1440" height="774" key="AVDManager/0.25.1440.799@0.25.1440.799" timestamp="1630400390831" />
+    <state x="548" y="272" key="AndroidCreateResourceFileDialog" timestamp="1630407178447">
       <screen x="0" y="25" width="1920" height="974" />
     </state>
-    <state x="548" y="272" key="AndroidCreateResourceFileDialog/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1629138039911" />
+    <state x="548" y="272" key="AndroidCreateResourceFileDialog/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630407178447" />
     <state width="541" height="466" key="DebuggerActiveHint" timestamp="1630326203403">
       <screen x="0" y="25" width="1920" height="974" />
     </state>
     <state width="541" height="466" key="DebuggerActiveHint/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630326203403" />
-    <state width="1878" height="173" key="GridCell.Tab.0.bottom" timestamp="1630341326228">
+    <state width="1878" height="335" key="GridCell.Tab.0.bottom" timestamp="1630419252449">
       <screen x="0" y="25" width="1920" height="974" />
     </state>
-    <state width="1878" height="173" key="GridCell.Tab.0.bottom/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630341326228" />
-    <state width="1878" height="173" key="GridCell.Tab.0.center" timestamp="1630341326227">
+    <state width="1878" height="335" key="GridCell.Tab.0.bottom/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630419252449" />
+    <state width="1398" height="261" key="GridCell.Tab.0.bottom/0.25.1440.799@0.25.1440.799" timestamp="1630400390619" />
+    <state width="1878" height="335" key="GridCell.Tab.0.center" timestamp="1630419252448">
       <screen x="0" y="25" width="1920" height="974" />
     </state>
-    <state width="1878" height="173" key="GridCell.Tab.0.center/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630341326227" />
-    <state width="1878" height="173" key="GridCell.Tab.0.left" timestamp="1630341326226">
+    <state width="1878" height="335" key="GridCell.Tab.0.center/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630419252448" />
+    <state width="1398" height="261" key="GridCell.Tab.0.center/0.25.1440.799@0.25.1440.799" timestamp="1630400390618" />
+    <state width="1878" height="335" key="GridCell.Tab.0.left" timestamp="1630419252447">
       <screen x="0" y="25" width="1920" height="974" />
     </state>
-    <state width="1878" height="173" key="GridCell.Tab.0.left/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630341326226" />
-    <state width="1878" height="173" key="GridCell.Tab.0.right" timestamp="1630341326228">
+    <state width="1878" height="335" key="GridCell.Tab.0.left/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630419252447" />
+    <state width="1398" height="261" key="GridCell.Tab.0.left/0.25.1440.799@0.25.1440.799" timestamp="1630400390618" />
+    <state width="1878" height="335" key="GridCell.Tab.0.right" timestamp="1630419252448">
       <screen x="0" y="25" width="1920" height="974" />
     </state>
-    <state width="1878" height="173" key="GridCell.Tab.0.right/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630341326228" />
-    <state width="1878" height="261" key="GridCell.Tab.1.bottom" timestamp="1630339930678">
+    <state width="1878" height="335" key="GridCell.Tab.0.right/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630419252448" />
+    <state width="1398" height="261" key="GridCell.Tab.0.right/0.25.1440.799@0.25.1440.799" timestamp="1630400390619" />
+    <state width="1878" height="335" key="GridCell.Tab.1.bottom" timestamp="1630419249815">
       <screen x="0" y="25" width="1920" height="974" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.1.bottom/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630339930678" />
-    <state width="1878" height="261" key="GridCell.Tab.1.center" timestamp="1630339930677">
+    <state width="1878" height="335" key="GridCell.Tab.1.bottom/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630419249815" />
+    <state width="1398" height="261" key="GridCell.Tab.1.bottom/0.25.1440.799@0.25.1440.799" timestamp="1630400390620" />
+    <state width="1878" height="335" key="GridCell.Tab.1.center" timestamp="1630419249814">
       <screen x="0" y="25" width="1920" height="974" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.1.center/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630339930677" />
-    <state width="1878" height="261" key="GridCell.Tab.1.left" timestamp="1630339930676">
+    <state width="1878" height="335" key="GridCell.Tab.1.center/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630419249814" />
+    <state width="1398" height="261" key="GridCell.Tab.1.center/0.25.1440.799@0.25.1440.799" timestamp="1630400390620" />
+    <state width="1878" height="335" key="GridCell.Tab.1.left" timestamp="1630419249813">
       <screen x="0" y="25" width="1920" height="974" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.1.left/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630339930676" />
-    <state width="1878" height="261" key="GridCell.Tab.1.right" timestamp="1630339930677">
+    <state width="1878" height="335" key="GridCell.Tab.1.left/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630419249813" />
+    <state width="1398" height="261" key="GridCell.Tab.1.left/0.25.1440.799@0.25.1440.799" timestamp="1630400390619" />
+    <state width="1878" height="335" key="GridCell.Tab.1.right" timestamp="1630419249814">
       <screen x="0" y="25" width="1920" height="974" />
     </state>
-    <state width="1878" height="261" key="GridCell.Tab.1.right/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630339930677" />
+    <state width="1878" height="335" key="GridCell.Tab.1.right/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630419249814" />
+    <state width="1398" height="261" key="GridCell.Tab.1.right/0.25.1440.799@0.25.1440.799" timestamp="1630400390620" />
     <state x="100" y="126" width="1720" height="774" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1630323846301">
       <screen x="0" y="25" width="1920" height="974" />
     </state>
     <state x="100" y="126" width="1720" height="774" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630323846301" />
-    <state x="659" y="268" width="777" height="490" key="find.popup" timestamp="1630329931780">
+    <state x="659" y="268" width="777" height="576" key="find.popup" timestamp="1630418654963">
       <screen x="0" y="25" width="1920" height="974" />
     </state>
-    <state x="659" y="268" width="777" height="490" key="find.popup/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630329931780" />
+    <state x="659" y="268" width="777" height="576" key="find.popup/-1440.620.1440.875/0.25.1920.974@0.25.1920.974" timestamp="1630418654963" />
     <state x="625" y="240" width="670" height="676" key="search.everywhere.popup" timestamp="1630335118488">
       <screen x="0" y="25" width="1920" height="974" />
     </state>

@@ -27,5 +27,5 @@ interface AsteroidDao {
     fun insertPictureOfDay(vararg pictureOfDay: DatabasePictureOfDay)
 
     @Query("SELECT * FROM DatabasePictureOfDay")
-    fun getPictureOfDay(): LiveData<DatabasePictureOfDay>
+    fun getPictureOfDay(): DatabasePictureOfDay
 }
